@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+#nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+#nav a{
+    margin-left: 20px;
+}
+
+#nav a.topimage{
+    width: 20px;
+    height: 20px;
+    background: teal;
+    border-radius: 10px;
+
+}
+
+#middle{
+    margin-top: 200px;
+
+}
+
+#logo{
+    text-align: center;
+}
+
+#search_bar_container{
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+#searchbar{
+    padding: 10px;
+}
