@@ -3,9 +3,10 @@ body{
 }
 
 #nav{
+    margin-top: 15px;
     display: flex;
     justify-content: flex-end;
-    margin-top: 15px;
+    
 }
 
 #nav a{
@@ -36,5 +37,23 @@ body{
 }
 
 #searchbar{
-    padding: 10px;
+    padding: 10px 0 10px 0;
+    outline: 0;
+    width: 500px;
+    border-radius: 25px;
+    border: 2px solid lightgray;
+}
+
+#button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.button{
+    margin:0 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    background: rgb(231, 239, 240);
+    border-radius: 3px;
 }
