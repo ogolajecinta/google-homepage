@@ -62,7 +62,7 @@ a:hover{
 }
 
 #searchbar:hover{
-    box-shadow: ;
+    box-shadow: 0 0 5px 2px lightgray ;
 }
 
 #button{
@@ -83,9 +83,17 @@ a:hover{
     text-align: center;
 }
 
-footer{
+#footer{
+    
+    margin: 10em 0 0 0;
+    flex-wrap: wrap;
     background: lightgray;
-    border-top: 1px solid lightgray; 
-    /*margin: 0;
-    padding: 0.5em:*/
+    border-top: 20px solid lightgray; 
+    
+    
 }
+#footer_content a{
+   text-align:center;
+    padding: 15px;
+}
+
