@@ -1,5 +1,6 @@
 html, body{
     margin: 0;
+    height: 100%;
 }
 
 body{
@@ -12,6 +13,12 @@ body{
     display: flex;
     justify-content: flex-end;
     
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
 }
 
 #nav a{
@@ -54,6 +61,10 @@ body{
     border: 2px solid lightgray;
 }
 
+#searchbar:hover{
+    box-shadow: ;
+}
+
 #button{
     margin-top: 20px;
     display: flex;
@@ -70,4 +81,11 @@ body{
 #links{
     margin-top: 20px ;
     text-align: center;
+}
+
+footer{
+    background: lightgray;
+    border-top: 1px solid lightgray; 
+    /*margin: 0;
+    padding: 0.5em:*/
 }
