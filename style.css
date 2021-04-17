@@ -50,6 +50,7 @@ a:hover{
 #search_bar_container{
     text-align: center;
     margin-top: 25px;
+    position: relative;
 
 }
 #search, #voice{
@@ -61,13 +62,21 @@ a:hover{
     align-items: center;
     
 }
+#search{
+    left: 0;
+}
+#voice{
+    right: 0;
+}
 #searchbar{
-    padding: 10px 0 10px 0;
-    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
     outline: 0;
     width: 500px;
-    border-radius: 25px;
-    border: 2px solid lightgray;
+    border-radius: 20px;
+    border: 1px solid lightgray;
 }
 
 #searchbar:hover{
